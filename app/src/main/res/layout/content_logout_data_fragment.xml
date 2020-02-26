@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/salir"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/technical_placeholder"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_button_background"
+                android:text="CERRAR SESIÓN"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/i"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/moonlightning"
+                android:text="Información personal"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/usuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/i"
+                android:fontFamily="@font/roboto_light"
+                android:text="Nombre de usuario: "
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/username_placeholder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/usuario"
+                android:layout_margin="15dp"
+                android:fontFamily="@font/roboto_light"
+                android:text="text_example"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/username_placeholder"
+                android:fontFamily="@font/roboto_light"
+                android:text="Nombre: "
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/name_placeholder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nombre"
+                android:layout_margin="15dp"
+                android:fontFamily="@font/roboto_light"
+                android:text="Nombre"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/apellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name_placeholder"
+                android:fontFamily="@font/roboto_light"
+                android:text="Apellido: "
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/apellido_placeholder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/apellido"
+                android:layout_margin="15dp"
+                android:fontFamily="@font/roboto_light"
+                android:text="Apellido"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/correo_electronico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/apellido_placeholder"
+                android:fontFamily="@font/roboto_light"
+                android:text="Correo electronico: "
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/correo_electronico_placeholder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/correo_electronico"
+                android:layout_margin="15dp"
+                android:fontFamily="@font/roboto_light"
+                android:text="Correo electronico"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/cedula"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/correo_electronico_placeholder"
+                android:fontFamily="@font/roboto_light"
+                android:text="Identificación ciudadana: "
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cedula_placeholder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cedula"
+                android:layout_margin="15dp"
+                android:fontFamily="@font/roboto_light"
+                android:text="Identificacion ciudadana"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/technical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cedula_placeholder"
+                android:fontFamily="@font/roboto_light"
+                android:text="Technical: "
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/technical_placeholder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/technical"
+                android:layout_margin="15dp"
+                android:fontFamily="@font/roboto_light"
+                android:text="Modo Técnico"
+                android:textColor="#000" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

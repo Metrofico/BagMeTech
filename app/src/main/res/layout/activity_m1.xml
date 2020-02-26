@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".activities.m0">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/_t0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:text="Mi monitor no muestra pantalla"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/_d0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/_t0"
+                android:padding="15dp"
+                android:text=" 1. Arranca en modo seguro."
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/_d1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/_d0"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/roboto_light"
+                android:text="Cuando tenemos un problema con nuestro ordenador, y no podemos acceder al escritorio, debemos arrancar el ordenador en modo seguro (a prueba de fallos). Esto se puede hacer fácilmente apagando la computadora y encendiéndola de nuevo, pero apretando de forma continua la tecla F-8 hasta que salga un menú en el que elegirás “modo seguro” o algo parecido para arrancar."
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/_d2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/_d1"
+                android:padding="15dp"
+                android:text=" 2. Actualiza los drivers de la tarjeta gráfica o de vídeo."
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/_d3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/_d2"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/roboto_light"
+                android:text=" Si consigues entrar de este modo, verás que el escritorio no tiene su aspecto habitual. Está utilizando un controlador básico para captar la imagen que te servirá para solucionar los problemas. Debes buscar en Internet los drivers de la tarjeta de vídeo e instalárselos. Necesitas saber cuál es tu tarjeta de vídeo (aquí te explican cómo averiguarlo). Como no tendrás conexión, hazlo desde otro ordenador."
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/_d4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/_d3"
+                android:padding="15dp"
+                android:text=" 3. Problemas con la memoria RAM."
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/_d5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/_d4"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/roboto_light"
+                android:text="Si lo anterior no funciona, puede ser que tu memoria RAM necesite limpieza o el módulo en el que se ha insertado no funcione. Para arreglar esto tendrás que abrir la carcasa, identificar tu memoria RAM, extraerla con mucho cuidado de no dañar los terminales y limpiarla con un líquido limpiador de contactos electrónicos"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

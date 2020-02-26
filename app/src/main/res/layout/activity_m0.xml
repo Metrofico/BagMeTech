@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".activities.m0">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/_t0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:text="Mi monitor no enciende"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/_d0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/_t0"
+                android:padding="15dp"
+                android:text=" 1. Comprueba el cable del monitor."
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/_d1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/_d0"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/roboto_light"
+                android:text=" Si tienes un ordenador de mesa (no un portátil) puede
+                                    suceder perfectamente que el cable no haga buen contacto y por eso no se encienda.
+                                    Debes apretar bien los cables para que conecten bien."
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/_d2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/_d1"
+                android:padding="15dp"
+                android:text=" 2. Revisa la configuración del ahorro de energía."
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/_d3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/_d2"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/roboto_light"
+                android:text=" Muchos ordenadores tienen configurado una medida para ahorrar energía, que consiste
+                                    en que cuando lleva mucho tiempo encendido, y después de llevar un rato puesto el
+                                    salvador de pantallas, el monitor se apaga. No tiene misterio. La solución es
+                                    simplemente mover el ratón para que todo vuelva a la normalidad."
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/_d4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/_d3"
+                android:padding="15dp"
+                android:text=" 3. Prueba el monitor en otra computadora."
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/_d5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/_d4"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/roboto_light"
+                android:text="Es fácil que confundamos un problema de la placa base o memoria RAM con que la pantalla no funcione. Para cerciorarnos, pruébalo en otro ordenador. Si arranca el PC, pero se queda en stand-by, sin que llegue a encenderse Windows, es que el problema es de la pantalla."
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

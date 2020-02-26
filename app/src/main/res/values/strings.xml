@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BagMeTech</string>
+    <string name="action_bar_search">Buscar en bagmetech</string>
+    <string name="no_logged">No has iniciado sesión, para utilizar todas las funciones de esta aplicación es necesario que ingreses con tu cuenta registrada</string>
+    <string name="iniciar_sesion">INICIAR SESIÓN</string>
+    <string name="iniciando_sesión_login">Iniciando Sesión...</string>
+    <string-array name="problemas">
+        <item>Mi monitor no enciende</item>
+        <item>Mi monitor no muestra pantalla</item>
+    </string-array>
+</resources>

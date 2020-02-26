@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#52A6BA</color>
+    <color name="colorPrimaryDark">#3C7180</color>
+    <color name="colorAccent">#059DF0</color>
+    <color name="splashscreenbackground">#FFFFFF</color>
+    <color name="darkCyan">#133D4B</color>
+    <color name="oneCyan">#2F657E</color>
+    <color name="twoCyan">#0D3F61</color>
+    <color name="actionBar">#52A6BA</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="defaultBackground">#ffffff</color>
+    <color name="red">#BB0000</color>
+</resources>

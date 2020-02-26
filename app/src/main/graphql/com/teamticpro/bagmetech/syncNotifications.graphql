@@ -1,0 +1,6 @@
+query syncNotification($mac_address: String!){
+    syncNotification(syncDevice: {mac_address: $mac_address}){
+        title
+        description
+    }
+}

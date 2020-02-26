@@ -1,0 +1,16 @@
+query login($email: String!, $pass: String!){
+            login(userLoginInput: { email: $email, password: $pass}){
+                userId
+                token
+                tokenExpiration
+                User{
+                    _id
+                    Name
+                    LastName
+                    email
+                    NumberId
+                    username
+                    technical
+                }
+            }
+        }
